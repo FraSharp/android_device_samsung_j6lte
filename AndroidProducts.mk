@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_j6lte.mk
+    $(LOCAL_DIR)/rr_j6lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_j6lte-user \
-    aosp_j6lte-userdebug \
-    aosp_j6lte-eng
+    rr_j6lte-user \
+    rr_j6lte-userdebug \
+    rr_j6lte-eng
