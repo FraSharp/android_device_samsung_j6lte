@@ -27,7 +27,7 @@ $(call inherit-product, vendor/aosp/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j6lte
-PRODUCT_NAME := aosp_j6lte
+PRODUCT_NAME := cesium_j6lte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
