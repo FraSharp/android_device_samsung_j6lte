@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_j6lte.mk
+    $(LOCAL_DIR)/revengeos_j6lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_j6lte-user \
-    cesium_j6lte-userdebug \
-    cesium_j6lte-eng
+    revengeos_j6lte-user \
+    revengeos_j6lte-userdebug \
+    revengeos_j6lte-eng
