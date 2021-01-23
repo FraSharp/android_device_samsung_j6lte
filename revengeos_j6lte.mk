@@ -23,11 +23,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/j6lte/device.mk)
 
 # Inherit some common Aosp stuff.
-$(call inherit-product, vendor/cesium/config/common.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j6lte
-PRODUCT_NAME := cesium_j6lte
+PRODUCT_NAME := revengeos_j6lte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
